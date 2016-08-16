@@ -30,6 +30,13 @@ Basic structure for front-end development
 - Spritesmith
 - Usemin + Wiredep
 
+##Sync with source
+```sh
+  $ git fetch upstream
+  $ git checkout master
+  $ git merge upstream/master
+  ```
+
 ##Usage
 
 1. Install dependencies, packages and initial structure
